@@ -7,3 +7,5 @@ runs:
     - name: Say hello
       run: echo "👋 Hello from my composite action! please wrok"
       shell: bash
+    - name: konflux-ui-e2e-tests
+      uses: ./.github/actions/my-action/test
