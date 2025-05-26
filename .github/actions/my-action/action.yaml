@@ -1,0 +1,8 @@
+name: My Composite Action
+description: Prints Hello from the action
+
+runs:
+  using: "composite"
+  steps:
+    - name: Say hello
+      run: echo "👋 Hello from my composite action!"
