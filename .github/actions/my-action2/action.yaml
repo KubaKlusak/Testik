@@ -1,0 +1,9 @@
+name: My Composite Action
+description: Prints Hello from the action
+
+runs:
+  using: "composite"
+  steps:
+    - name: Say hello
+      run: echo "this is an extention"
+      shell: bash
