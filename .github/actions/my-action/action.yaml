@@ -8,4 +8,4 @@ runs:
       run: echo "👋 Hello from my composite action! please wrok"
       shell: bash
     - name: konflux-ui-e2e-tests
-      uses: ../my-action2
+      uses: ./.github/actions/my-action2
