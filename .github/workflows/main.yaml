@@ -2,6 +2,7 @@ name: Run on PR
 
 on:
   pull_request:
+    types: [opened, synchronize]
 
 jobs:
   test-composite-action:

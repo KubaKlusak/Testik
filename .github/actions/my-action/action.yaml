@@ -6,3 +6,4 @@ runs:
   steps:
     - name: Say hello
       run: echo "👋 Hello from my composite action!"
+      shell: bash
